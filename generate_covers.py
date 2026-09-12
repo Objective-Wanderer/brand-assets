@@ -95,19 +95,19 @@ def generate_cover(filename, title, subtitle):
 
     # Load fonts
     try:
-        title_font = ImageFont.truetype(os.path.join(FONT_DIR, "arialbd.ttf"), 58)
+        title_font = ImageFont.truetype(os.path.join(FONT_DIR, "arialbd.ttf"), 72)
     except Exception:
-        title_font = ImageFont.truetype(os.path.join(FONT_DIR, "bahnschrift.ttf"), 58)
+        title_font = ImageFont.truetype(os.path.join(FONT_DIR, "bahnschrift.ttf"), 72)
 
     try:
-        sub_font = ImageFont.truetype(os.path.join(FONT_DIR, "arial.ttf"), 22)
+        sub_font = ImageFont.truetype(os.path.join(FONT_DIR, "arial.ttf"), 28)
     except Exception:
-        sub_font = ImageFont.truetype(os.path.join(FONT_DIR, "bahnschrift.ttf"), 22)
+        sub_font = ImageFont.truetype(os.path.join(FONT_DIR, "bahnschrift.ttf"), 28)
 
     try:
-        brand_font = ImageFont.truetype(os.path.join(FONT_DIR, "arial.ttf"), 18)
+        brand_font = ImageFont.truetype(os.path.join(FONT_DIR, "arial.ttf"), 22)
     except Exception:
-        brand_font = ImageFont.truetype(os.path.join(FONT_DIR, "bahnschrift.ttf"), 18)
+        brand_font = ImageFont.truetype(os.path.join(FONT_DIR, "bahnschrift.ttf"), 22)
 
     # Draw title centered vertically
     lines = title.split("\n")
