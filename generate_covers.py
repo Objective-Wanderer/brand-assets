@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 W, H = 1280, 720
 FONT_DIR = "C:/Windows/Fonts"
-OUT_DIR = os.path.join(os.path.dirname(__file__), "brand-assets", "covers") if len(sys.argv) < 3 else sys.argv[2]
+OUT_DIR = os.path.join(os.path.dirname(__file__), "covers") if len(sys.argv) < 3 else sys.argv[2]
 
 # Brand colors
 ORANGE = (255, 122, 0)
@@ -121,11 +121,11 @@ def generate_cover(filename, title, subtitle):
     sw = bbox[2] - bbox[0]
     draw.text(((W - sw) // 2, sub_y), subtitle, font=sub_font, fill=LIGHT_GRAY)
 
-    # Draw "matemplates" branding at bottom-left — split-color: mate=white, mplates=accent
+    # Draw "matemplates" branding at bottom-left — split-color: mate=white, mplates=orange
     bx, by = 90, H - 55
     mate_bbox = brand_font.getbbox("mate")
     mate_w = mate_bbox[2] - mate_bbox[0]
-    draw.text((bx, by), "mate", font=brand_font, fill=(255, 255, 255))
+    draw.text((bx, by), "mate", font=brand_font, fill=WHITE)
     draw.text((bx + mate_w, by), "mplates", font=brand_font, fill=(255, 122, 0))
 
     # Subtle n8n accent dot (top-right area)
