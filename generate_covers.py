@@ -121,11 +121,12 @@ def generate_cover(filename, title, subtitle):
     sw = bbox[2] - bbox[0]
     draw.text(((W - sw) // 2, sub_y), subtitle, font=sub_font, fill=LIGHT_GRAY)
 
-    # Draw "matemplates" branding at bottom-left
-    brand_text = "matemplates"
-    bbox_b = brand_font.getbbox(brand_text)
-    bw = bbox_b[2] - bbox_b[0]
-    draw.text((90, H - 55), brand_text, font=brand_font, fill=LIGHT_GRAY)
+    # Draw "matemplates" branding at bottom-left — split-color: mate=white, mplates=accent
+    bx, by = 90, H - 55
+    mate_bbox = brand_font.getbbox("mate")
+    mate_w = mate_bbox[2] - mate_bbox[0]
+    draw.text((bx, by), "mate", font=brand_font, fill=(255, 255, 255))
+    draw.text((bx + mate_w, by), "mplates", font=brand_font, fill=(255, 122, 0))
 
     # Subtle n8n accent dot (top-right area)
     draw.ellipse([W - 120, 50, W - 80, 90], fill=ACCENT_ORANGE)
