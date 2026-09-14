@@ -33,6 +33,25 @@ COVERS = [
     ("invoice-followup.png", "Invoice\nFollow-Up", "From overdue to paid, on autopilot"),
     ("cold-outreach.png", "Cold\nOutreach", "Personalized sequences at scale"),
     ("support-triage.png", "Customer Support\nTriage", "Auto-tag and route inbound requests"),
+    ("automation-club.png", "n8n\nAutomation Club", "Premium workflows and community access"),
+    ("free-lead-sampler.png", "Free Lead\nEnrichment Sampler", "Try the workflow before you buy"),
+    ("starter-pack.png", "n8n\nStarter Pack", "Five essential workflows to get going"),
+    ("automate-gumroad-affiliate-payouts.png", "Gumroad\nAffiliate Payouts", "Automate commission tracking and payouts"),
+    ("automate-lead-magnet-delivery-n8n.png", "Lead Magnet\nDelivery", "Automated digital delivery with n8n"),
+    ("backup-n8n-workflows-git.png", "n8n Workflow\nBackup", "Version control your workflows with Git"),
+    ("connect-gmail-to-n8n-safely.png", "Gmail + n8n\nSafe Setup", "Connect Gmail without getting flagged"),
+    ("free-lead-magnet.png", "Free Lead\nMagnet", "Capture leads with automated delivery"),
+    ("monitor-saas-down-n8n-telegram.png", "SaaS Uptime\nMonitor", "Get Telegram alerts when services go down"),
+    ("n8n-ai-agent-build-your-first.png", "Build Your First\nn8n AI Agent", "A step-by-step guide to n8n AI agents"),
+    ("n8n-ai-llm-workflows-that-work.png", "n8n + LLM\nWorkflows", "Production-ready AI workflows that work"),
+    ("n8n-cron-triggers-done-right.png", "n8n Cron\nTriggers", "Scheduled automation done right"),
+    ("n8n-google-sheets-read-write-guide.png", "Google Sheets\n+ n8n", "Read and write sheets like a pro"),
+    ("n8n-openai-api-cost-control.png", "OpenAI API\nCost Control", "Track and limit your AI spending"),
+    ("n8n-shared-mailbox-help-desk.png", "Shared Mailbox\nHelp Desk", "Auto-route and triage support emails"),
+    ("n8n-subworkflows-when-why.png", "n8n\nSub-Workflows", "When and why to modularize your flows"),
+    ("n8n-vs-make-comparison.png", "n8n vs Make\nCompared", "Which automation platform fits your needs"),
+    ("scrape-leads-n8n-without-getting-blocked.png", "Scrape Leads\nWithout Blocks", "Ethical lead scraping with n8n"),
+    ("self-host-n8n-5-dollar-vps.png", "Self-Host n8n\non $5 VPS", "Your own automation server, cheap"),
     # Blog posts
     ("auto-chase-overdue-invoices-n8n.png", "Auto-Chase\nOverdue Invoices", "n8n sends polite nudges until they pay"),
     ("cold-outreach-that-converts.png", "Cold Outreach\nThat Converts", "Why most outreach fails and how to fix it"),
@@ -42,10 +61,8 @@ COVERS = [
     ("no-code-crm-google-sheets-n8n.png", "No-Code CRM\nin Google Sheets", "Build a pipeline without SaaS bills"),
     ("real-estate-lead-enrichment-n8n.png", "Real Estate\nLead Enrichment", "n8n workflow for lead scoring and routing"),
     ("solopreneur-n8n-automations.png", "n8n for\nSolopreneurs", "Automate without engineers"),
-    # Special products
-    ("automation-club.png", "n8n\nAutomation Club", "Premium workflows and community access"),
-    ("free-lead-sampler.png", "Free Lead\nEnrichment Sampler", "Try the workflow before you buy"),
-    ("starter-pack.png", "n8n\nStarter Pack", "Five essential workflows to get going"),
+    ("n8n-error-handling-dont-lose-a-run.png", "n8n Error\nHandling", "Stop losing runs and leads silently"),
+    ("enrich-leads-from-any-source-n8n.png", "Enrich Leads\nfrom Any Source", "Connect enrichment APIs to any data source"),
 ]
 
 
