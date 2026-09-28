@@ -15,6 +15,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 W, H = 1280, 720
 FONT_DIR = "C:/Windows/Fonts"
+if not os.path.isdir(FONT_DIR):
+    FONT_DIR = "/mnt/c/Windows/Fonts"
 OUT_DIR = os.path.join(os.path.dirname(__file__), "covers") if len(sys.argv) < 3 else sys.argv[2]
 
 # Brand colors
@@ -63,6 +65,7 @@ COVERS = [
     ("solopreneur-n8n-automations.png", "n8n for\nSolopreneurs", "Automate without engineers"),
     ("n8n-error-handling-dont-lose-a-run.png", "n8n Error\nHandling", "Stop losing runs and leads silently"),
     ("enrich-leads-from-any-source-n8n.png", "Enrich Leads\nfrom Any Source", "Connect enrichment APIs to any data source"),
+    ("n8n-webhook-idempotency-double-charges.png", "n8n Webhook\nIdempotency", "Stop double charges, emails, and rows"),
 ]
 
 
