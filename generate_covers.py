@@ -66,6 +66,7 @@ COVERS = [
     ("n8n-error-handling-dont-lose-a-run.png", "n8n Error\nHandling", "Stop losing runs and leads silently"),
     ("enrich-leads-from-any-source-n8n.png", "Enrich Leads\nfrom Any Source", "Connect enrichment APIs to any data source"),
     ("n8n-webhook-idempotency-double-charges.png", "n8n Webhook\nIdempotency", "Stop double charges, emails, and rows"),
+    ("n8n-backup-self-host-disaster-recovery.png", "n8n Backup\n& Restore", "Save your workflows before the VPS dies"),
 ]
 
 
