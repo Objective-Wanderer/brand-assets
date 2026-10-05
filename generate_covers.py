@@ -67,6 +67,7 @@ COVERS = [
     ("enrich-leads-from-any-source-n8n.png", "Enrich Leads\nfrom Any Source", "Connect enrichment APIs to any data source"),
     ("n8n-webhook-idempotency-double-charges.png", "n8n Webhook\nIdempotency", "Stop double charges, emails, and rows"),
     ("n8n-backup-self-host-disaster-recovery.png", "n8n Backup\n& Restore", "Save your workflows before the VPS dies"),
+    ("n8n-binary-data-attachments-pdf-email.png", "n8n Binary\nData + PDFs", "Attach files to emails without the mystery error"),
 ]
 
 
