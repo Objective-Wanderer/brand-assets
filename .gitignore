@@ -1,0 +1,13 @@
+# Python bytecode caches — never part of the repo. The Matemplates blog cron
+# commits from this tree to push cover images, so an untracked __pycache__/ here
+# is pure noise in every status check that guards the publish.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor droppings
+.DS_Store
+Thumbs.db
+*.swp
