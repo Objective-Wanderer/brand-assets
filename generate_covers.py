@@ -68,6 +68,8 @@ COVERS = [
     ("n8n-webhook-idempotency-double-charges.png", "n8n Webhook\nIdempotency", "Stop double charges, emails, and rows"),
     ("n8n-backup-self-host-disaster-recovery.png", "n8n Backup\n& Restore", "Save your workflows before the VPS dies"),
     ("n8n-binary-data-attachments-pdf-email.png", "n8n Binary\nData + PDFs", "Attach files to emails without the mystery error"),
+    ("n8n-rate-limiting-api-quota.png", "n8n Rate\nLimiting", "Stop API 429s from breaking your workflows"),
+    ("n8n-whatsapp-supabase-lead-sync.png", "WhatsApp +\nSupabase", "Capture and qualify leads automatically"),
 ]
 
 
