@@ -70,6 +70,7 @@ COVERS = [
     ("n8n-binary-data-attachments-pdf-email.png", "n8n Binary\nData + PDFs", "Attach files to emails without the mystery error"),
     ("n8n-rate-limiting-api-quota.png", "n8n Rate\nLimiting", "Stop API 429s from breaking your workflows"),
     ("n8n-whatsapp-supabase-lead-sync.png", "WhatsApp +\nSupabase", "Capture and qualify leads automatically"),
+    ("n8n-sub-workflows-modular-automation.png", "n8n\nSub-Workflows", "Modular automations that don't break at scale"),
 ]
 
 
