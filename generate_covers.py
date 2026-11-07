@@ -71,6 +71,7 @@ COVERS = [
     ("n8n-rate-limiting-api-quota.png", "n8n Rate\nLimiting", "Stop API 429s from breaking your workflows"),
     ("n8n-whatsapp-supabase-lead-sync.png", "WhatsApp +\nSupabase", "Capture and qualify leads automatically"),
     ("n8n-sub-workflows-modular-automation.png", "n8n\nSub-Workflows", "Modular automations that don't break at scale"),
+    ("n8n-schedule-trigger-daily-digest.png", "n8n Schedule\nTrigger", "Daily digest that never double-sends"),
 ]
 
 
