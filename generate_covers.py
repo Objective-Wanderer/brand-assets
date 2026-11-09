@@ -72,6 +72,7 @@ COVERS = [
     ("n8n-whatsapp-supabase-lead-sync.png", "WhatsApp +\nSupabase", "Capture and qualify leads automatically"),
     ("n8n-sub-workflows-modular-automation.png", "n8n\nSub-Workflows", "Modular automations that don't break at scale"),
     ("n8n-schedule-trigger-daily-digest.png", "n8n Schedule\nTrigger", "Daily digest that never double-sends"),
+    ("n8n-pagination-cursor-dedupe.png", "n8n\nPagination", "Cursor loops that stop duplicating rows"),
 ]
 
 
