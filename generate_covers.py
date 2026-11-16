@@ -73,6 +73,7 @@ COVERS = [
     ("n8n-sub-workflows-modular-automation.png", "n8n\nSub-Workflows", "Modular automations that don't break at scale"),
     ("n8n-schedule-trigger-daily-digest.png", "n8n Schedule\nTrigger", "Daily digest that never double-sends"),
     ("n8n-pagination-cursor-dedupe.png", "n8n\nPagination", "Cursor loops that stop duplicating rows"),
+    ("n8n-webhook-response.png", "n8n\nWebhook Response", "Return the right thing at the right time"),
 ]
 
 
