@@ -74,6 +74,7 @@ COVERS = [
     ("n8n-schedule-trigger-daily-digest.png", "n8n Schedule\nTrigger", "Daily digest that never double-sends"),
     ("n8n-pagination-cursor-dedupe.png", "n8n\nPagination", "Cursor loops that stop duplicating rows"),
     ("n8n-webhook-response.png", "n8n\nWebhook Response", "Return the right thing at the right time"),
+    ("n8n-google-forms-welcome-email.png", "Google Forms\n+ n8n", "Turn every submission into a CRM row, a welcome email, and an alert"),
 ]
 
 
